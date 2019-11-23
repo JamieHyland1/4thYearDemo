@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1953316669060152384}
   - component: {fileID: 1953316669060152385}
   - component: {fileID: -1017676915058557367}
+  - component: {fileID: -3129052963532703953}
   - component: {fileID: 1170612528700364778}
   m_Layer: 0
   m_Name: Rabbit
@@ -199,6 +200,18 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!114 &-3129052963532703953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953316669060152387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8feb36f2ebc1c14592d9d616a32e798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1170612528700364778
 MonoBehaviour:
   m_ObjectHideFlags: 0
