@@ -20,8 +20,8 @@ public class FoodSpawner : MonoBehaviour
     {
         //We only want to spawn food along the x,z axis to make sure they're all level with each other
         for(int i = 0; i < numOfFood; i++){
-            float x = Random.Range(-20,20);
-            float z = Random.Range(-20,20);
+            float x = Random.Range(10,20);
+            float z = Random.Range(10,20);
             Instantiate(myPrefab,new Vector3(x,0.5f,z), Quaternion.identity);
         }
     }
